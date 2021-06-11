@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Log In</title>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login-signup.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="heading">Dawn of the Panther</h1>
+            <h5 class="hname"> - A porfolio by Shaaz Jung</h5>
+            <p class="para">The black panther has been the central focus of Shaaz’s work over the past four years. To see his recent exhibition ‘Dawn of the Panther’, login below.</p>
+            <h2 class="formtitle">Login</h2>
+            <div class="fmessage fmessage--error"></div>
+            <div class="forminput">
+                <input type="text" class="formin" autofocus placeholder="Username">
+                <div class="forminput-error-message"></div>
+            </div>
+            <div class="forminput">
+                <input type="password" class="formin" autofocus placeholder="Password">
+                <div class="forminput-error-message"></div>
+            </div>
+            <button class="formbutton" type="submit">Submit</button>
+            <p class="formpass">
+                <a href="#" class="forgotlink">Forgot your password?</a>
+            </p>
+            <p class="formpass">
+                <a class="forgotlink" href="./" id="linkCreateAccount"> Create account? </a>
+            </p>
+        </form>
+        <form class="form form--hidden" id="createAccount">
+            <h1 class="formtitle" id="colorhead">Create Account</h1>
+            <div class="fmessage fmessage--error"></div>
+            <div class="forminput">
+                <input type="text" id="signupUsername" class="formin" autofocus placeholder="Username">
+                <div class="forminput-error-message"></div>
+            </div>
+            <div class="forminput">
+                <input type="text" class="formin" autofocus placeholder="Email Address">
+                <div class="forminput-error-message"></div>
+            </div>
+            <div class="forminput">
+                <input type="password" class="formin" autofocus placeholder="Password">
+                <div class="forminput-error-message"></div>
+            </div>
+            <div class="forminput">
+                <input type="password" class="formin" autofocus placeholder="Confirm password">
+                <div class="forminput-error-message"></div>
+            </div>
+            <button class="formbutton" type="submit">Submit</button>
+            <p class="formpass">
+                <a class="forgotlink" href="./" id="linkLogin">Already have an account? Sign in</a>
+            </p>
+        </form>
+    </div>
+    <script src="login-signup.js"></script>
+</body>
